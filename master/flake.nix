@@ -11,6 +11,7 @@
   inputs.src-coinbase_pro-master.ref   = "refs/heads/master";
   inputs.src-coinbase_pro-master.owner = "inv2004";
   inputs.src-coinbase_pro-master.repo  = "coinbase-pro-nim";
+  inputs.src-coinbase_pro-master.dir   = "";
   inputs.src-coinbase_pro-master.type  = "github";
   
   inputs."ws".owner = "nim-nix-pkgs";
