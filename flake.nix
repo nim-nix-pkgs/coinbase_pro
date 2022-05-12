@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."coinbase_pro-master".dir   = "master";
+  inputs."coinbase_pro-master".owner = "nim-nix-pkgs";
+  inputs."coinbase_pro-master".ref   = "master";
+  inputs."coinbase_pro-master".repo  = "coinbase_pro";
+  inputs."coinbase_pro-master".type  = "github";
+  inputs."coinbase_pro-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."coinbase_pro-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
