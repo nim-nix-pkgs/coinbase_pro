@@ -15,11 +15,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1658033221,
-        "narHash": "sha256-75q8UV9rlZeoXVvoWQXzfukZwmGnSfO1mPKuzAXxMWI=",
+        "lastModified": 1658203370,
+        "narHash": "sha256-XYJk7+DOtjpdkofjMIXtvj6iPCa8OHm6oik/b2x1IAA=",
         "owner": "nim-nix-pkgs",
         "repo": "coinbase_pro",
-        "rev": "15369bc63c73c7470b9bab5c99259410d50a93dd",
+        "rev": "19d9361091b364f2df53995ab7cb9d663d872010",
         "type": "github"
       },
       "original": {
